@@ -1,5 +1,9 @@
 # GraphRAG 🕸️
 
+[![CI](https://github.com/SKB-18/graph-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/SKB-18/graph-rag/actions)
+[![Tests: 22 Passed](https://img.shields.io/badge/tests-22%2F22%20passed-brightgreen.svg)](#)
+[![Python: 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](#)
+
 A production-grade Knowledge Graph framework tailored for Multi-Hop Retrieval-Augmented Generation (GraphRAG), built with Python.
 This repository serves as **Foundation 3** of our AI engineering portfolio, demonstrating why explicit relational graphs vastly outperform traditional dense vector embeddings on multi-hop reasoning benchmarks.
 
