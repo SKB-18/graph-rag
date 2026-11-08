@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-rag"
+version = "0.1.0"
+description = "Graph-RAG Engine: Knowledge Graph Triples, NetworkX Ingestion, and Hybrid Retrieval"
+authors = [{ name = "SKB-18" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
